@@ -434,6 +434,13 @@ small {
   .hero-image {
     max-width: 1000px;
   }
+  /* FEATURE SECTION */
+  .feature-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  }
 
   /* EXPLORE SECTION */
   .explore-container {
@@ -539,6 +546,7 @@ small {
   }
   /* FEATURE SECTION */
   .feature-cards {
+    display: flex;
     flex-direction: row;
     gap: 2rem;
     min-height: 400px;
