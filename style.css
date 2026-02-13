@@ -102,6 +102,22 @@ span {
   );
   z-index: -1;
 }
+.chat-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  background-color: #18042b;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+}
+.chat {
+  font-size: 2.5rem;
+  color: #fff;
+}
 
 /* ------------------ NAV BAR ------------------ */
 .header {
