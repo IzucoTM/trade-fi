@@ -79,7 +79,9 @@ span {
   background-color: #3c096c;
   padding: 0.5rem 1rem;
   color: #fff;
+  transition: 1s;
 }
+
 .btn-secondary {
   background-color: #011d32;
   position: relative;
@@ -102,6 +104,7 @@ span {
   );
   z-index: -1;
 }
+
 .chat-container {
   display: flex;
   align-items: center;
@@ -217,7 +220,9 @@ span {
   min-height: 250px;
   max-height: 250px;
   border: 1px solid #ffffff2d;
+  transition: 1s;
 }
+
 .feature-img {
   height: 5rem;
   width: 5rem;
@@ -540,11 +545,21 @@ small {
   .nav-link:hover {
     color: #8a6ba7;
   }
+
   .btn-primary:hover {
     background-color: #18042b;
   }
   .btn-secondary:hover {
     color: #8a6ba7;
+  }
+  .card-one:hover {
+    transform: scale(1.1, 1.2);
+  }
+  .card-two:hover {
+    transform: scale(1.1, 1.2);
+  }
+  .card-three:hover {
+    transform: scale(1.1, 1.2);
   }
   .cta {
     width: 150px;
