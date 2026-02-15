@@ -36,6 +36,11 @@ body {
 main {
   padding: 2rem;
 }
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+}
 p {
   color: #9b9b9b;
   line-height: 1.6;
